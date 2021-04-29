@@ -41,7 +41,7 @@ ENV \
   ENABLE_JSONP=true \
   MAX_FILTER_RULES=20 \
   OPTIMIZE_LINE_WIDTH=false \
-  SSL=true \
+  SSL=false \
   TOMCAT_EXTRAS=true \
   HTTP_PORT=8080 \
   HTTP_PROXY_NAME= \
@@ -102,9 +102,9 @@ RUN /scripts/setup.sh \
 
 ENV \
   ## Initial Memory that Java can allocate
-  INITIAL_MEMORY="8G" \
+  INITIAL_MEMORY="2G" \
   ## Maximum Memory that Java can allocate
-  MAXIMUM_MEMORY="16G" \
+  MAXIMUM_MEMORY="4G" \
   XFRAME_OPTIONS="true" \
   REQUEST_TIMEOUT=60 \
   PARARELL_REQUEST=100 \
