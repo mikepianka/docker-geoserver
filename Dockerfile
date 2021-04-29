@@ -41,7 +41,7 @@ ENV \
   ENABLE_JSONP=true \
   MAX_FILTER_RULES=20 \
   OPTIMIZE_LINE_WIDTH=false \
-  SSL=false \
+  SSL=true \
   TOMCAT_EXTRAS=true \
   HTTP_PORT=8080 \
   HTTP_PROXY_NAME= \
